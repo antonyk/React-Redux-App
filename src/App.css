@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 7vmin;
   pointer-events: none;
 }
 
@@ -15,16 +15,21 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 8vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
+  color: #61dafb;
+}
+
+.menu-links {
+  margin: 0 16px;
   color: #61dafb;
 }
 
@@ -35,4 +40,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.todo-list {
+  background-color: goldenrod;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: white;
+}
+
+.todo-item {
+  margin: 8px 0 8px 24px;
 }
